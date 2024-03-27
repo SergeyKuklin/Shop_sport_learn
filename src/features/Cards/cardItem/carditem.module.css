@@ -1,0 +1,107 @@
+:root {
+    --black: #2b2929;
+	--dark: #464646;
+    --gray-dark: #716969;
+    --textWhite: #ffffff;
+    --yellow-dark: #f1bf5d;
+    --hit-seasons: #f15d5d;
+    --top-price: #5d7ef1;
+}
+
+.card {
+    max-width: 415px;
+    margin-bottom: 80px;
+}
+
+.cardInfo {
+    background-color: #F6F6F6;
+    border-radius: 12px;
+}
+
+.imgCard {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.mainCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.mainPaginationBestPrice {
+    border-radius: 8px;
+    padding: 4px 12px;
+    background: #5ed270;
+    color: white;
+    text-align: center;
+}
+
+.mainPaginationHitPrice {
+    border-radius: 8px;
+    padding: 4px 12px;
+    background: var(--hit-seasons);
+    color: white;
+    text-align: center;
+}
+
+.mainPaginationTopPrice {
+    border-radius: 8px;
+    padding: 4px 12px;
+    background: var(--top-price);
+    color: white;
+    text-align: center;
+}
+
+.cardAction {
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.cardName {
+    font-size: 20px;
+    color: var(--black);
+    line-height: 110%;
+    letter-spacing: 0.01em;
+    margin-top: 20px;
+}
+
+.cardTextPrice {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.cardSalePrice {
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--dark);
+}
+
+.cardPrice {
+    font-size: 18px;
+    line-height: 150%;
+    text-decoration: line-through;
+    color: var(--gray-dark);
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.cardSale {
+    border-radius: 8px;
+    padding: 4px 8px;
+    width: 52px;
+    height: 28px;
+    background: var(--yellow-dark);
+    font-size: 14px;
+    line-height: 140%;
+    color: var(--textWhite);
+    text-align: center;
+}

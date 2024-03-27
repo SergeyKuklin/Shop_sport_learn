@@ -1,0 +1,22 @@
+:root {
+	--black: #2b2929;
+	--dark: #464646;
+	--white: #fff;
+	--gray-very-very-white: #f8f8f8;
+	--gray-white-white: #efefef;
+	--gray-white: #e1e1e1;
+	--gray: #bababa;
+	--gray-dark: #716969;
+	--yellow-dark: #f1bf5d;
+	--yellow: #fff0ba;
+	--red: #ff4f4f;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.marginSectionHeader {
+	margin-bottom: 32px;
+}

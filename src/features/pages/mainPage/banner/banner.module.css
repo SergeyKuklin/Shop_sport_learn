@@ -1,0 +1,64 @@
+@import url(../template/index.module.css);
+
+.banner {
+    background: radial-gradient(243.03% 191.83% at 102.27% -3.07%, rgb(110, 47, 158) 0%, rgb(142, 154, 225) 24.47916716337204%, rgb(221, 97, 175) 56.77083134651184%, rgb(238, 242, 168) 74.47916865348816%);
+    border-radius: 12px;
+}
+
+.bannerArticle {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 42px;
+    padding-top: 42px;
+    padding-left: 48px;
+}
+
+.textTitleBanner {
+    color: var(--white);
+    font-size: 36px;
+    line-height: 110%;
+    letter-spacing: 0.01em;
+    margin-bottom: 24px;
+}
+
+.textInfoBanner {
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    color: var(--white);
+    margin-bottom: 24px;
+}
+
+.btnMoreInfo {
+    padding: 14px 64px;
+    background: var(--white);
+    border-radius: 12px;
+    text-decoration: none;
+    color: var(--black);
+    font-size: 18px;
+    line-height: 110%;
+    letter-spacing: 0.01em;
+}
+
+.bannerLogo {
+    display: flex;
+    position: relative;
+    background-image: url(./image/Ellipse\ 29.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bannerBrand {
+    position: absolute;
+    top: 0;
+    right: 10%;
+}
+
+.bannerSlider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}

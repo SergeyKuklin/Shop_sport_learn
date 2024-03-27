@@ -1,0 +1,11 @@
+.cardsPosition {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    column-gap: 20px;
+}
+
+.cardsInline {
+    display: flex;
+    overflow: hidden;
+    gap: 20px;
+}

@@ -1,0 +1,8 @@
+.btnSlider {
+    border-radius: 100%;
+    background: var(--white);
+    stroke: black;
+    width: 12px;
+    height: 12px;
+    margin-left: 12px;
+}
