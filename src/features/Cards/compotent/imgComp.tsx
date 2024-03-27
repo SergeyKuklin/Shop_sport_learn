@@ -2,6 +2,6 @@
 
 export const ImageCard = () => {
     return (
-        <div></div>
+        <div>rfhnbyrf</div>
     )
 }
