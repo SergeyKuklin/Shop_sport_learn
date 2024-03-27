@@ -2,6 +2,7 @@ import { mockCards } from "../model/mockCards";
 import coverImg from '../image/Nike_Defy_All_Day_black.png';
 import s from './carditem.module.css';
 import { Card } from "features/shared/types/card";
+import { ImageCard } from "../image/imgComp";
 
 type PostCardProps = {
     cardData: Card;
@@ -49,7 +50,8 @@ function sale() {
                     </div>
                 </div>
                 <div className={s.imgCard}>
-                    <img src={coverImg} alt="" />
+                    <img src={coverImg} alt={cardData.name} />
+                    {/* <ImageCard src={cardData.coverImage} alt={cardData.name} /> */}
                 </div>
             </div>
             <p className={s.cardName}>{cardData.name}</p>
@@ -59,5 +61,5 @@ function sale() {
                 <p className={s.cardSale}>-{cardData.currency}%</p>
             </div>
         </div>
-    )
+    );
 }

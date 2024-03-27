@@ -6,13 +6,6 @@ export const Cards = () => {
 
 console.log(mockCards);
 
-// const GetCardElement = () => {
-//     if (mockCards.length > 3) {
-//         return (s.cardsInline);
-//     }
-// }
-
-
     return (
         <div className={s.cardsPosition}>
             {mockCards.map((cards, id) => <CardItem cardData={cards} key={id}/>)}

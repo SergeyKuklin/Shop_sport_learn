@@ -2,6 +2,7 @@ import brandBanner from './image/nike.png';
 import brandClothers from './image/nike_banner.png';
 import s from './banner.module.css';
 import { IconSlider } from 'features/shared/components/sliderIcon/slidericon';
+import { BrandLine } from './brand/brandLine';
 
 const bannerData = {
     title: 'Новая коллекция осень-зима',
@@ -40,6 +41,7 @@ export const MainBanner = () => {
                     <IconSlider></IconSlider>
                 </div>
             </div>
+            <BrandLine />
         </div>
     )
 }

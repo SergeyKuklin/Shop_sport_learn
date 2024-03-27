@@ -1,0 +1,25 @@
+
+.brandLine {
+    /* transform: translateX(1280px); */
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 140px;
+    margin-right: 32px;
+    /* animation-name: line-infinite; */
+    animation-duration: 5s;
+    animation-iteration-count: infinite
+}
+
+@keyframes line-infinite {
+    from {
+        transform: translateX(1280px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
