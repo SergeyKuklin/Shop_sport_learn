@@ -1,0 +1,48 @@
+@import url(../template/index.module.css);
+
+.serfBlock {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-auto-flow: row;
+    align-items: center;
+    padding-left: 126px;
+    padding-top: 32px;
+    padding-right: 49px;
+    max-width: 100%;
+    background: linear-gradient(225deg, #fff385 2.97%, #fff0ba 100%);
+    border-radius: 12px;
+}
+
+.serfText {
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    color: var(--black);
+    span {
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 1050px) {
+    .serfBlock {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 361px) {
+    .serfBlock {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0;
+        text-align: center;
+        max-width: 328px;
+        max-height: 376px;
+        overflow: hidden;
+    }
+    .serfText {
+        grid-row: 1;
+    }
+}

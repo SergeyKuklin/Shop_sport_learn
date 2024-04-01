@@ -7,9 +7,11 @@ export const Cards = () => {
 console.log(mockCards);
 
     return (
-        <div className={s.cardsPosition}>
-            {mockCards.map((cards, id) => <CardItem cardData={cards} key={id}/>)}
-            {/* <CardItem /> */}
+        <div>
+            <div className={s.cardsPosition}>
+                {mockCards.map((cards, id) => <CardItem cardData={cards} key={id}/>)}
+                {/* <CardItem /> */}
+            </div>
         </div>
     )
 }
