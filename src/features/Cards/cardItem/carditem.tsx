@@ -8,9 +8,6 @@ type PostCardProps = {
     cardData: Card;
 }
 
-console.log(mockCards);
-
-
 export const CardItem = ({cardData}: PostCardProps) => {
 
 // Функция отрисовки цвета по популярности товара pagination

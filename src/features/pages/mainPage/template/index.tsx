@@ -3,6 +3,7 @@ import { MainHeader } from 'features/pages/header/mainheader';
 import s from './index.module.css';
 import { MainBanner } from '../banner/banner';
 import { SertificationSection } from '../seftification/sectification';
+import { SaleSection } from '../sale/sale';
 
 export const MainPage = () => {
   return (
@@ -11,6 +12,7 @@ export const MainPage = () => {
         <MainBanner />
         <Cards />
         <SertificationSection />
+        <SaleSection />
       </div>
   )
 }
