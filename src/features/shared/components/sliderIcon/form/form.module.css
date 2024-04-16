@@ -1,0 +1,42 @@
+@import url(../../../../pages/mainPage/template/index.module.css);
+
+.formBlock {
+    display: grid;
+    grid-template-columns: 30%;
+    align-items: center;
+    justify-content: center;
+    
+    input {
+        height: 50px;
+        border-radius: 12px;
+        background: transparent;
+        border-color: white;
+        margin-bottom: 16px;
+    }
+
+    input[placeholder] {
+        font-size: 16px;
+        color: white;
+        padding-left: 24px;
+    }
+}
+
+.btnSub {
+    padding: 14px 28px;
+    background: white;
+    border-radius: 12px;
+}
+
+.polityAccept {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.titleForm {
+    display: grid;
+    justify-content: center;
+    color: white;
+    margin-bottom: 32px;
+    text-align: center;
+}

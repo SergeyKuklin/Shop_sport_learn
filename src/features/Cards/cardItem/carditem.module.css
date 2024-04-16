@@ -18,11 +18,7 @@
     border-radius: 12px;
 }
 
-.imgCard {
-    width: 100%;
-    height: 100%;
-    
-}
+
 
 .mainCard {
     display: flex;
@@ -57,6 +53,13 @@
     background: var(--top-price);
     color: white;
     text-align: center;
+}
+
+.imgCard {
+    img {
+    max-width: 100%;
+    max-height: 100%;
+    }
 }
 
 .cardAction {
@@ -104,4 +107,33 @@
     line-height: 140%;
     color: var(--textWhite);
     text-align: center;
+}
+
+@media screen and (max-width: 391px) {
+    .mainPaginationHitPrice,
+    .mainPaginationBestPrice,
+    .mainPaginationTopPrice
+    {
+        font-size: 12px;
+    }
+
+    .cardAction {
+            display: none;
+        }
+    
+    .cardName,
+    .cardSalePrice {
+        font-size: 14px;
+    }
+
+    .cardPrice,
+    .cardSale {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .card {
+        margin-bottom: 0;
+        padding-bottom: 40px;
+    }
 }

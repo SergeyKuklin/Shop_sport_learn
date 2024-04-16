@@ -53,8 +53,8 @@ function sale() {
             </div>
             <p className={s.cardName}>{cardData.name}</p>
             <div className={s.cardTextPrice}>
-                <p className={s.cardSalePrice}>{sale()} ₽</p>
-                <p className={s.cardPrice}>{cardData.fullPrice} ₽</p>
+                <p className={s.cardSalePrice}>{sale()}₽</p>
+                <p className={s.cardPrice}>{cardData.fullPrice}₽</p>
                 <p className={s.cardSale}>-{cardData.currency}%</p>
             </div>
         </div>

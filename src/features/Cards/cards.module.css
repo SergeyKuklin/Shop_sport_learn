@@ -1,6 +1,6 @@
 .cardsPosition {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
     column-gap: 20px;
 }
 
@@ -8,4 +8,24 @@
     display: flex;
     overflow: hidden;
     gap: 20px;
+}
+
+@media screen and (max-width: 821px) {
+    .cardsPosition {
+        display: flex;
+        overflow: scroll;
+    }
+    &::-webkit-scrollbar {
+        width: 0;
+        height: 4px;
+        background: black;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: var(--gray-white);
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: var(--dark);
+    }
 }

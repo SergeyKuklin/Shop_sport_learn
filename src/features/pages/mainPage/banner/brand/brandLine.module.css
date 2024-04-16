@@ -2,7 +2,7 @@
 .brandLine {
     /* transform: translateX(1280px); */
     overflow: hidden;
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -23,3 +23,27 @@
     }
 }
 
+@media screen and (max-width: 821px) {
+    .brandLine {
+        overflow: scroll;
+        flex-wrap: nowrap;
+
+        a {
+            padding-right: 50px;
+        }
+
+        &::-webkit-scrollbar {
+            width: 0;
+            height: 4px;
+            background: black;
+        }
+
+        &::-webkit-scrollbar-track {
+            background: var(--gray-white);
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background: var(--dark);
+        }
+    }
+}

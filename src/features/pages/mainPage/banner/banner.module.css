@@ -55,6 +55,7 @@
     position: absolute;
     top: 0;
     right: 10%;
+    max-width: 100%;
 }
 
 .bannerSlider {
@@ -62,4 +63,18 @@
     align-items: center;
     justify-content: center;
     padding: 24px;
+}
+
+@media screen and (max-width: 821px) {
+    .bannerArticle {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 5px;
+    }
+    
+    .bannerLogo {
+        display: none;
+    }
+
 }
