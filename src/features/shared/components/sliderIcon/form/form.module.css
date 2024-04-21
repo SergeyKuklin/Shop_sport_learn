@@ -40,3 +40,17 @@
     margin-bottom: 32px;
     text-align: center;
 }
+
+@media screen and (max-width: 391px) {
+    .polityAccept {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btnSub {
+        text-align: center;
+        padding: 14px 14px;
+    }
+
+}
