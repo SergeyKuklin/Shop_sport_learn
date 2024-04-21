@@ -22,7 +22,7 @@ function getStylePagination() {
         return (s.hidden);
     }
 }
-    
+    //ghjdthrf
 // Функция подсчета стоимости в зависимости от скидки
 function sale() {
     if (cardData.currency === 0) {
