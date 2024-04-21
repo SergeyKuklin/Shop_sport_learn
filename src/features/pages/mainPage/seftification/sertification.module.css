@@ -30,6 +30,8 @@
         flex-wrap: wrap;
         justify-content: center;
         text-align: center;
+        padding: 10px;
+        margin-bottom: 50px;
     }
 }
 

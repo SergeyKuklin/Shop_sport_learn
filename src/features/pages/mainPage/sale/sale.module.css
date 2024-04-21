@@ -105,3 +105,20 @@
     padding-left: 24px;
     padding-top: 24px;
 } 
+
+@media screen and (max-width: 391px) {
+    .saleBlock {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 50%);
+    }
+
+    .saleBlockLeft {
+        grid-template-rows: repeat(2, 50%);
+    }
+
+    .saleBlockRight {
+        grid-template-rows: repeat(2, 50%);
+        margin-top: 20px;
+    }
+}
